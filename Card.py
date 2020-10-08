@@ -61,6 +61,7 @@ class FleryWarAxe(WeaponCard):
 
  durability = 2
  ATK = 3
+ attribute = []
 
 
 class ArcaneShot(SpellCard):
@@ -84,6 +85,7 @@ class BloodfenRaptor(MinionCard):
  major = 'neutral'
  description = 'none'
 
+ attribute = []
  ATK = 3
  health = 2
  race = 'beast'
@@ -99,6 +101,7 @@ class AcidicSwampOoze(MinionCard):
  major = 'neutral'
  description = 'Battlecry: Destroy your opponent\'s\n weapon.'
 
+ attribute = []
  ATK = 3
  health = 2
  race = 'none'
@@ -116,6 +119,7 @@ class AldrachiWarblades(WeaponCard):
 
  durability = 2
  ATK = 2
+ attribute = []
 
 
 class AncestralHealing(SpellCard):
@@ -189,6 +193,7 @@ class ArcaniteReaper(WeaponCard):
 
  durability = 2
  ATK = 5
+ attribute = []
 
 
 class Archmage(MinionCard):
@@ -200,6 +205,7 @@ class Archmage(MinionCard):
  major = 'neutral'
  description = 'Spell Damage +1'
 
+ attribute = []
  ATK = 4
  health = 7
  race = 'none'
@@ -229,6 +235,7 @@ class Assassin_sBlade(WeaponCard):
 
  durability = 4
  ATK = 3
+ attribute = []
 
 
 class Backstab(SpellCard):
@@ -286,6 +293,7 @@ class BluegillWarrior(MinionCard):
  major = 'neutral'
  description = 'Charge'
 
+ attribute = []
  ATK = 2
  health = 1
  race = 'murloc'
@@ -301,6 +309,7 @@ class BootyBayBodyguard(MinionCard):
      major = 'neutral'
      description = 'Taunt'
 
+     attribute = ['T']
      ATK = 5
      health = 4
      race = 'none'
@@ -316,6 +325,7 @@ class BoulderfistOgre(MinionCard):
      major = 'neutral'
      description = 'none'
 
+     attribute = []
      ATK = 6
      health = 7
      race = 'none'
@@ -367,6 +377,7 @@ class ChillwindYeti(MinionCard):
     major = 'neutral'
     description = 'none'
 
+    attribute = []
     ATK = 4
     health = 5
     race = 'none'
@@ -430,6 +441,7 @@ class CoreHound(MinionCard):
     major = 'neutral'
     description = 'none'
 
+    attribute = []
     ATK = 9
     health = 5
     race = 'beast'
@@ -457,6 +469,7 @@ class DalaranMage(MinionCard):
     major = 'neutral'
     description = 'Spell Damage +1'
 
+    attribute = []
     ATK = 1
     health = 4
     race = 'none'
@@ -472,6 +485,7 @@ class DarkscaleHealer(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Restore 2 Health to all\n friendly characters.'
 
+    attribute = []
     ATK = 4
     health = 5
     race = 'none'
@@ -499,6 +513,7 @@ class DragonlingMechanic(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Summon a 2/1 Mechanical\n Dragonling.'
 
+    attribute = []
     ATK = 2
     health = 4
     race = 'none'
@@ -526,6 +541,7 @@ class ElvenArcher(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Deal 1 damage.'
 
+    attribute = []
     ATK = 1
     health = 1
     race = 'none'
@@ -541,6 +557,7 @@ class DreadInfernal(MinionCard):
     major = 'warlock'
     description = 'Battlecry: Deal 1 damage to ALL other\n characters.'
 
+    attribute = []
     ATK = 6
     health = 6
     race = 'demon'
@@ -580,6 +597,7 @@ class Felstalker(MinionCard):
     major = 'warlock'
     description = 'Battlecry: Discard a random card.'
 
+    attribute = []
     ATK = 4
     health = 3
     race = 'demon'
@@ -595,6 +613,7 @@ class FireElemental(MinionCard):
     major = 'shaman'
     description = 'Battlecry: Deal 3 damage.'
 
+    attribute = []
     ATK = 6
     health = 5
     race = 'elemental'
@@ -634,6 +653,7 @@ class FlametongueTotem(MinionCard):
     major = 'shaman'
     description = 'Adjacent minions have +2 Attack.'
 
+    attribute = []
     ATK = 0
     health = 3
     race = 'totem'
@@ -684,6 +704,7 @@ class FrostwolfGrunt(MinionCard):
     major = 'neutral'
     description = 'Taunt'
 
+    attribute = ['T']
     ATK = 2
     health = 2
     race = 'none'
@@ -699,6 +720,7 @@ class FrostwolfWarlord(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Gain +1/+1 for each other\n friendly minion on the battlefield.'
 
+    attribute = []
     ATK = 4
     health = 4
     race = 'none'
@@ -714,6 +736,7 @@ class GlaiveboundAdept(MinionCard):
     major = 'demonHunter'
     description = 'Battlecry: If your hero attacked this\n turn, deal 4 damage.'
 
+    attribute = []
     ATK = 6
     health = 4
     race = 'none'
@@ -729,6 +752,7 @@ class GnomishInventor(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Draw a card.'
 
+    attribute = []
     ATK = 2
     health = 4
     race = 'none'
@@ -744,6 +768,7 @@ class GoldshireFootman(MinionCard):
     major = 'neutral'
     description = 'Taunt'
 
+    attribute = ['T']
     ATK = 1
     health = 2
     race = 'none'
@@ -759,6 +784,7 @@ class GrimscaleOracle(MinionCard):
     major = 'neutral'
     description = 'Your other Murlocs have +1 Attack.'
 
+    attribute = []
     ATK = 1
     health = 1
     race = 'murloc'
@@ -774,6 +800,7 @@ class GuardianofKings(MinionCard):
     major = 'paladin'
     description = 'Battlecry: Restore 6 Health to your\n hero.'
 
+    attribute = []
     ATK = 5
     health = 6
     race = 'none'
@@ -789,6 +816,7 @@ class GurubashiBerserker(MinionCard):
     major = 'neutral'
     description = 'Whenever this minion takes damage,\n gain +3 Attack.'
 
+    attribute = []
     ATK = 2
     health = 7
     race = 'none'
@@ -912,6 +940,7 @@ class Houndmaster(MinionCard):
     major = 'hunter'
     description = 'Battlecry: Give a friendly Beast\n +2/+2 and Taunt.'
 
+    attribute = []
     ATK = 4
     health = 3
     race = 'none'
@@ -975,6 +1004,7 @@ class IronbarkProtector(MinionCard):
     major = 'druid'
     description = 'Taunt'
 
+    attribute = ['T']
     ATK = 8
     health = 8
     race = 'none'
@@ -990,6 +1020,7 @@ class IronforgeRifleman(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Deal 1 damage.'
 
+    attribute = []
     ATK = 2
     health = 2
     race = 'none'
@@ -1017,6 +1048,7 @@ class IronfurGrizzly(MinionCard):
     major = 'neutral'
     description = 'Taunt'
 
+    attribute = ['T']
     ATK = 3
     health = 3
     race = 'beast'
@@ -1032,6 +1064,7 @@ class KoboldGeomancer(MinionCard):
     major = 'neutral'
     description = 'Spell Damage +1'
 
+    attribute = []
     ATK = 2
     health = 2
     race = 'none'
@@ -1047,6 +1080,7 @@ class Kor_kronElite(MinionCard):
     major = 'warrior'
     description = 'Charge'
 
+    attribute = []
     ATK = 4
     health = 3
     race = 'none'
@@ -1064,6 +1098,7 @@ class Light_sJustice(WeaponCard):
 
  durability = 4
  ATK = 1
+ attribute = []
 
 
 class LordoftheArena(MinionCard):
@@ -1075,6 +1110,7 @@ class LordoftheArena(MinionCard):
      major = 'neutral'
      description = 'Taunt'
 
+     attribute = ['T']
      ATK = 6
      health = 5
      race = 'none'
@@ -1090,6 +1126,7 @@ class MagmaRager(MinionCard):
      major = 'neutral'
      description = 'none'
 
+     attribute = []
      ATK = 5
      health = 1
      race = 'elemental'
@@ -1189,6 +1226,7 @@ class MurlocRaider(MinionCard):
     major = 'neutral'
     description = 'none'
 
+    attribute = []
     ATK = 2
     health = 1
     race = 'murloc'
@@ -1204,6 +1242,7 @@ class MurlocTidehunter(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Summon a 1/1 Murloc Scout.'
 
+    attribute = []
     ATK = 2
     health = 1
     race = 'murloc'
@@ -1219,6 +1258,7 @@ class Nightblade(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Deal 3 damage to the enemy\n hero.'
 
+    attribute = []
     ATK = 4
     health = 4
     race = 'none'
@@ -1234,6 +1274,7 @@ class NoviceEngineer(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Draw a card.'
 
+    attribute = []
     ATK = 1
     health = 1
     race = 'none'
@@ -1249,6 +1290,7 @@ class OasisSnapjaw(MinionCard):
     major = 'neutral'
     description = 'none'
 
+    attribute = []
     ATK = 2
     health = 7
     race = 'beast'
@@ -1264,6 +1306,7 @@ class OgreMagi(MinionCard):
     major = 'neutral'
     description = 'Spell Damage +1'
 
+    attribute = []
     ATK = 4
     health = 4
     race = 'none'
@@ -1291,7 +1334,7 @@ class Plaguebringer(MinionCard):
     major = 'rogue'
     description = 'Battlecry: Give a friendly minion\n Poisonous.'
 
-
+    attribute = []
     ATK = 3
     health = 3
     race = 'none'
@@ -1331,7 +1374,7 @@ class PsychicConjurer(MinionCard):
     major = 'priest'
     description = 'Battlecry: Copy a card in your\n opponent\'s deck and add it to your hand.'
 
-
+    attribute = []
     ATK = 1
     health = 1
     race = 'none'
@@ -1359,7 +1402,7 @@ class RaidLeader(MinionCard):
     major = 'neutral'
     description = 'Your other minions have +1 Attack.'
 
-
+    attribute = []
     ATK = 2
     health = 2
     race = 'none'
@@ -1375,7 +1418,7 @@ class RazorfenHunter(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Summon a 1/1 Boar.'
 
-
+    attribute = []
     ATK = 2
     health = 3
     race = 'none'
@@ -1391,7 +1434,7 @@ class RecklessRocketeer(MinionCard):
     major = 'neutral'
     description = 'Charge'
 
-
+    attribute = []
     ATK = 5
     health = 2
     race = 'none'
@@ -1407,7 +1450,7 @@ class RiverCrocolisk(MinionCard):
     major = 'neutral'
     description = 'none'
 
-
+    attribute = []
     ATK = 2
     health = 3
     race = 'beast'
@@ -1536,7 +1579,7 @@ class ShaowhoofSlayer(MinionCard):
     major = 'demonHunter'
     description = 'Battlecry: Give your hero +1 Attack\n this turn.'
 
-
+    attribute = []
     ATK = 2
     health = 1
     race = 'demon'
@@ -1552,7 +1595,7 @@ class ShatteredSunCleric(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Give a friendly minion\n +1/+1.'
 
-
+    attribute = []
     ATK = 3
     health = 2
     race = 'none'
@@ -1592,7 +1635,7 @@ class SightlessWatcher(MinionCard):
     major = 'demonHunter'
     description = 'Battlecry: Look at 4 cards in your\n deck. Choose one to put on top.'
 
-
+    attribute = []
     ATK = 3
     health = 2
     race = 'demon'
@@ -1608,7 +1651,7 @@ class SilverbackPatriarch(MinionCard):
     major = 'neutral'
     description = 'Taunt'
 
-
+    attribute = ['T']
     ATK = 1
     health = 4
     race = 'beast'
@@ -1684,6 +1727,7 @@ class StarvingBuzzard(MinionCard):
     major = 'hunter'
     description = 'Whenever you summon a Beast, draw a\n card.'
 
+    attribute = []
     ATK = 3
     health = 2
     race = 'beast'
@@ -1699,6 +1743,7 @@ class StonetuskBoar(MinionCard):
     major = 'neutral'
     description = 'Charge'
 
+    attribute = []
     ATK = 1
     health = 1
     race = 'beast'
@@ -1714,6 +1759,7 @@ class StormpikeCommando(MinionCard):
     major = 'neutral'
     description = 'Battlecry: Deal 2 damage.'
 
+    attribute = []
     ATK = 4
     health = 2
     race = 'none'
@@ -1729,6 +1775,7 @@ class StormwindChampion(MinionCard):
     major = 'neutral'
     description = 'Your other minions have +1/+1.'
 
+    attribute = []
     ATK = 6
     health = 6
     race = 'none'
@@ -1743,6 +1790,7 @@ class StormwindKnight(MinionCard):
     major = 'neutral'
     description = 'Charge'
 
+    attribute = []
     ATK = 2
     health = 5
     race = 'none'
@@ -1770,6 +1818,7 @@ class TimberWolf(MinionCard):
     major = 'hunter'
     description = 'Your other Beasts have +1 Attack.'
 
+    attribute = []
     ATK = 1
     health = 1
     race = 'beast'
@@ -1811,6 +1860,7 @@ class TruesilverChampion(WeaponCard):
 
  durability = 2
  ATK = 4
+ attribute = []
 
 
 class TundraRhino(MinionCard):
@@ -1822,6 +1872,7 @@ class TundraRhino(MinionCard):
      major = 'hunter'
      description = 'Your Beasts have Charge.'
 
+     attribute = []
      ATK = 2
      health = 5
      race = 'beast'
@@ -1837,6 +1888,7 @@ class Voidwalker(MinionCard):
      major = 'warlock'
      description = 'Taunt'
 
+     attribute = ['T']
      ATK = 1
      health = 3
      race = 'demon'
@@ -1852,6 +1904,7 @@ class VoodooDoctor(MinionCard):
      major = 'neutral'
      description = 'Battlecry: Restore 2 Health.'
 
+     attribute = []
      ATK = 2
      health = 1
      race = 'none'
@@ -1867,6 +1920,7 @@ class WarGolem(MinionCard):
      major = 'neutral'
      description = 'none'
 
+     attribute = []
      ATK = 7
      health = 7
      race = 'none'
@@ -1882,6 +1936,7 @@ class WarsongCommander(MinionCard):
      major = 'warrior'
      description = 'Your Charge minions have +1 Attack.'
 
+     attribute = []
      ATK = 2
      health = 3
      race = 'none'
@@ -1897,6 +1952,7 @@ class WaterElemental(MinionCard):
      major = 'mage'
      description = 'Freeze any character damaged by this\n minion.'
 
+     attribute = []
      ATK = 3
      health = 6
      race = 'elemental'
@@ -1948,6 +2004,7 @@ class Windspeaker(MinionCard):
      major = 'shaman'
      description = 'Battlecry: Give a friendly minion\n Windfury.'
 
+     attribute = []
      ATK = 3
      health = 3
      race = 'none'
@@ -1963,14 +2020,143 @@ class Wolfrider(MinionCard):
      major = 'neutral'
      description = 'Charge'
 
+     attribute = []
      ATK = 3
      health = 1
      race = 'none'
      directional = False
 
 
+class TheCoin(SpellCard):
+    name = 'The Coin'
+    rarity = 'free'
+    type = 'spell'
+    cost = 0
+    set = 'Basic'
+    major = 'neutral'
+    description = 'Gain 1 Mana Crystal this turn only.'
+
+    directional = False
 
 
+class DemonClaws(SpellCard):
+    name = 'Demon Claws'
+    rarity = 'free'
+    type = 'spell'
+    cost = 1
+    set = 'Basic'
+    major = 'demonHunter'
+    description = 'Hero Power +1 Attack this turn.'
+
+    directional = False
+
+
+class Shapeshift(SpellCard):
+    name = 'Shapeshift'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'druid'
+    description = 'Hero Power +1 Attack this turn. +1 Armor.'
+
+    directional = False
+
+
+class SteadyShot(SpellCard):
+    name = 'Steady Shot'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'hunter'
+    description = 'Hero Power Deal 2 damage to the enemy hero.'
+
+    directional = False
+
+
+class Fireblast(SpellCard):
+    name = 'Fireblast'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'mage'
+    description = 'Hero Power Deal 1 damage.'
+
+    directional = True
+
+
+class Reinforce(SpellCard):
+    name = 'Reinforce'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'paladin'
+    description = 'Hero Power Summon a 1/1 Silver Hand Recruit.'
+
+    directional = False
+
+
+class LesserHeal(SpellCard):
+    name = 'Lesser Heal'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'priest'
+    description = 'Hero Power Restore 2 Health.'
+
+    directional = True
+
+
+class DaggerMastery(SpellCard):
+    name = 'Dagger Mastery'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'rogue'
+    description = 'Hero Power Equip a 1/2 Dagger.'
+
+    directional = False
+
+
+class TotemicCall(SpellCard):
+    name = 'Totemic Call'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'shaman'
+    description = 'Hero Power Summon a random Totem.'
+
+    directional = False
+
+
+class LifeTap(SpellCard):
+    name = 'Life Tap'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'warlock'
+    description = 'Hero Power Draw a card and take 2 damage.'
+
+    directional = False
+
+
+class ArmorUp(SpellCard):
+    name = 'Armor Up'
+    rarity = 'free'
+    type = 'spell'
+    cost = 2
+    set = 'Basic'
+    major = 'warrior'
+    description = 'Hero Power Gain 2 Armor.'
+
+    directional = False
 
 
 # x = Backstab()

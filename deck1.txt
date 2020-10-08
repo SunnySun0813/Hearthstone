@@ -1,6 +1,6 @@
 used 
 completed 
-blank name 
+MyPriest 
 priest 
 Holy Nova 
 Holy Nova 

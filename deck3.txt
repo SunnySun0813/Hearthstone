@@ -1,34 +1,34 @@
-available 
-blank decks 
+used 
+completed 
 blank name 
-blank major 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
-none 
+warrior 
+Acidic Swamp Ooze 
+Acidic Swamp Ooze 
+Arcanite Reaper 
+Arcanite Reaper 
+Archmage 
+Archmage 
+Bloodfen Raptor 
+Bloodfen Raptor 
+Bluegill Warrior 
+Bluegill Warrior 
+Booty Bay Bodyguard 
+Booty Bay Bodyguard 
+Charge 
+Charge 
+Cleave 
+Cleave 
+Execute 
+Execute 
+Flery War Axe 
+Flery War Axe 
+Heroic Strike 
+Heroic Strike 
+Kor'kron Elite 
+Kor'kron Elite 
+Shield Block 
+Shield Block 
+Warsong Commander 
+Warsong Commander 
+Whirlwind 
+Whirlwind 
